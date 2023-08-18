@@ -5,5 +5,6 @@ These experiments are largely influenced / inspired by the work done by VolosR. 
 
 ## Projects
 min_req:  The absolute minimum required code to make something appear on the screen. 
+Currently not really the minimum as it has a draw function.  Minimum can be handles in the 'setup' and 'loop'
 
 circular_sprite_logic:  Playing with the circular dial code of VolosR to understand more complex sprite projects.  
