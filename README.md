@@ -1,6 +1,6 @@
 # Lilygo T-Display S3 AMOLED Projects
 
-These experiments are largely influenced / inspired by the work done by VolosR.  The original desire was to explore using this board, with beautiful AMOLED screen, using CircuitPython.  Python and CircuitPython being the languages with which I have the most experience.  Since this board is not yet supported on CIrcuitPython, and I do not have the skill to add the support for this boar, I have chosen to play with Arduino.  The project by VolosR, using Arduino, have been very helpful to get started.
+These experiments are largely influenced / inspired by the work done by VolosR.  The original desire was to explore using this board, with a beautiful AMOLED screen, using CircuitPython.  Python and CircuitPython being the languages with which I have the most experience.  Since this board is not yet supported on CIrcuitPython, and I do not have the skill to add the support for this board, I have chosen to play with Arduino.  The project by VolosR, using Arduino, have been very helpful to get started.
 
 
 ## Projects
