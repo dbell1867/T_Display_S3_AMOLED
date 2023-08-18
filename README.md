@@ -8,3 +8,5 @@ min_req:  The absolute minimum required code to make something appear on the scr
 Currently not really the minimum as it has a draw function.  Minimum can be handles in the 'setup' and 'loop'
 
 circular_sprite_logic:  Playing with the circular dial code of VolosR to understand more complex sprite projects.  
+
+sprite_rotation:  Learning about rotating sprites and postion text.

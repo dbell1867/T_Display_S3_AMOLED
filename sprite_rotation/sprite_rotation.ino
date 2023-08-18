@@ -11,7 +11,7 @@ void setup(){
     background.createSprite(240,536);
     dial.createSprite(120,120);
     //background.setSwapBytes(1);  //need to understand this. Swaps the byte order for pushImage() and pushPixels() - corrects endianness  
-    tft.setPivot(120,120);
+    tft.setPivot(120,120); //pivot point of rotated sprites, what if you have multiple rotated sprites?
 
 }
 
@@ -19,6 +19,9 @@ int angle=0;//why does this sit outside the 'setup'?
 
 void loop(){
     background.fillSprite(TFT_WHITE);
+    background.setTextColor(TFT_BLACK,TFT_WHITE);
+    background.setTextDatum(1);//centre top
+    background.drawString("TEST",120,40,4);//need to learn about fonts.  Size and fontstyle.
     dial.fillSprite(TFT_RED);
     dial.pushRotated(&background,angle);
     background.pushSprite(0,0);
