@@ -10,3 +10,5 @@ Currently not really the minimum as it has a draw function.  Minimum can be hand
 circular_sprite_logic:  Playing with the circular dial code of VolosR to understand more complex sprite projects.  
 
 sprite_rotation:  Learning about rotating sprites and postion text.
+
+button_test:  Learning to use buttons to control events.  Extension to the sprite_rotation example.
