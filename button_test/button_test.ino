@@ -26,13 +26,13 @@ void setup() {
 
 void readButtons() {
     if (digitalRead(up) == 0) {
-        angle=angle+2;
+        angle=angle+2;//button press increases angle by 2
         if(angle>=360)
         angle=0;
     }
 
     if (digitalRead(down) == 0) {
-        angle--;
+        angle--;//button press reduces angle by 1
         if(angle<0)
         angle=359;
     }

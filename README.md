@@ -1,14 +1,14 @@
-# Lilygo T-Display S3 AMOLED Projects
+# Lilygo T-Display S3 AMOLED Practice Projects
 
-These experiments are largely influenced / inspired by the work done by VolosR.  The original desire was to explore using this board, with a beautiful AMOLED screen, using CircuitPython.  Python and CircuitPython being the languages with which I have the most experience.  Since this board is not yet supported on CIrcuitPython, and I do not have the skill to add the support for this board, I have chosen to play with Arduino.  The project by VolosR, using Arduino, have been very helpful to get started.
+These experiments are largely influenced / inspired by the work done by VolosR.  The original desire was to explore using this board, with a beautiful AMOLED screen, using CircuitPython.  Python and CircuitPython being the languages with which I have the most experience.  Since this board is not yet supported on CircuitPython, and I do not have the skill to add the support for this board, I have chosen to play with Arduino.  The projects by VolosR, using Arduino and the Lilygo T-Display S3 AMOLED, have been very helpful to get started.
 
 
 ## Projects
 min_req:  The absolute minimum required code to make something appear on the screen. 
-Currently not really the minimum as it has a draw function.  Minimum can be handles in the 'setup' and 'loop'
+Currently not really the minimum as it has a draw function.  Minimum can be handled in the 'setup' and 'loop'. Will update to reflect this.
 
 circular_sprite_logic:  Playing with the circular dial code of VolosR to understand more complex sprite projects.  
 
-sprite_rotation:  Learning about rotating sprites and postion text.
+sprite_rotation:  Learning about rotating sprites and text position.
 
 button_test:  Learning to use buttons to control events.  Extension to the sprite_rotation example.
