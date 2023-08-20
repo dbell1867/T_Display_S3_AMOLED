@@ -32,7 +32,7 @@ void readButtons() {
     }
 
     if (digitalRead(down) == 0) {
-        angle--;//button press reduces angle by 1
+        angle=angle-2;//button press reduces angle by 2
         if(angle<0)
         angle=359;
     }
