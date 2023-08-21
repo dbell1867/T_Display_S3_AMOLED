@@ -1,0 +1,4 @@
+pins_config.h
+debug.cfg
+debug.svd
+debug_custom.json
