@@ -18,8 +18,7 @@ int sx=-170;
 int sy=268;
 
 
-void setup()
-{  
+void setup(){  
   rm67162_init();  // amoled lcd initialization
   sprite.createSprite(240, 536);
   sprite.setSwapBytes(1);
@@ -37,8 +36,7 @@ void setup()
   }     
 }
 
-void draw()
-{
+void draw(){
  for(int i=0;i<360;i++)
   if (i%10==0) //important to put the less frequent occurrence first in logic.
   {
@@ -52,7 +50,6 @@ void draw()
 
  }
 
-void loop()
-{
+void loop(){
   draw();
 }

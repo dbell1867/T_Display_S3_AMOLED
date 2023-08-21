@@ -13,8 +13,6 @@
 
 // #define WIFI_SSID             "YOUR-SSID"
 // #define WIFI_PASSWORD         "YOUR-PSW"
-#define WIFI_SSID             "26AB Hyperoptic 1Gb Fibre 2.4Ghz"
-#define WIFI_PASSWORD         "FutGpkP7b2HJ"
 
 #define WIFI_CONNECT_WAIT_MAX (30 * 1000)
 
