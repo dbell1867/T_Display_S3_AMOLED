@@ -8,9 +8,9 @@ double rad=0.01745;
 
 float ox[360]; //outer point
 float oy[360];
-float ix[360]; //inner point
+float ix[360]; //short inner point
 float iy[360];
-float lx[360]; //long inner
+float lx[360]; //long inner point
 float ly[360];
 
 int r=280;
@@ -21,10 +21,10 @@ int sy=268;
 void setup()
 {  
   rm67162_init();  // amoled lcd initialization
-  //lcd_setRotation(1);
   sprite.createSprite(240, 536);
   sprite.setSwapBytes(1);
-  sprite.drawString("Hello World",20,20,4);
+  sprite.setTextDatum(1);//anchor point at centre top
+  sprite.drawString("Hello World",120,20,4);//centre top of screen
 
   for(int i=0;i<360;i++)
   {
@@ -39,8 +39,6 @@ void setup()
 
 void draw()
 {
- //sprite.fillSprite(TFT_BLACK);
- 
  for(int i=0;i<360;i++)
   if (i%10==0) //important to put the less frequent occurrence first in logic.
   {
@@ -50,13 +48,9 @@ void draw()
   {
   sprite.drawWedgeLine(ox[i],oy[i],ix[i],iy[i],2,2,TFT_WHITE,TFT_BLACK);
   }
-
-  //sprite.fillCircle(sx, sy, 265, TFT_CYAN);
   lcd_PushColors(0, 0, 240, 536, (uint16_t*)sprite.getPointer());
 
  }
-
-
 
 void loop()
 {
