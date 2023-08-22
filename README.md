@@ -12,6 +12,8 @@ These experiments are largely influenced / inspired by the work done by [VolosR]
 
 4.  button_test:  Learning to use buttons to control events.  Extension to the sprite_rotation example.
 
-5.  Text experimentation.  Understand built in fonts and custom fonts
+5.  colour_test:  Noticed that when a sprite was pushed to another sprite, the TFT_eSPI colours (e.g. TFT_RED) were not accurate.  Exploring the impact and how to handle layered sprites.
 
-6.  Multiple pivot points for sprites with complex interactions.  [VolosR](https://github.com/VolosR) [OverEngineered Blink](https://github.com/VolosR/OEBlink) sketch is the inspiration for this experiment.
+6.  Text experimentation.  Understand built in fonts and custom fonts
+
+7.  Multiple pivot points for sprites with complex interactions.  [VolosR](https://github.com/VolosR) [OverEngineered Blink](https://github.com/VolosR/OEBlink) sketch is the inspiration for this experiment.
